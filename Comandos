@@ -1,0 +1,10 @@
+
+
+mvn package
+// Criar a pasta target, com o artefato .jar
+
+mvn clean
+// Limpa a pasta target gerada pelo mvnpackge
+
+java -jar target/listavip-1.0-SNAPSHOT.jar
+// Rodar a aplicação pelo jar
